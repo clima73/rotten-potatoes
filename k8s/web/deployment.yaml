@@ -17,7 +17,7 @@ spec:
           ports:
             - containerPort: 5000
           env:
-            - name: MONGO_DB
+            - name: MONGODB_DB
               value: admin
             - name: MONGODB_HOST
               value: mongo-service

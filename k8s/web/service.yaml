@@ -4,7 +4,7 @@ metadata:
   name: movies-service
 spec:
   selector:
-    app: movie
+    app: movies
   ports:
     - port: 80
       targetPort: 5000
